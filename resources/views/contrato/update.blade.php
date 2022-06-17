@@ -243,27 +243,7 @@
 
 
                     </div> 
-                    {{-- <div class="col-span-6">
-                        <x-label for="document">
-                            {{ __('Image') }}
-                            <span class="text-sm ml-2 text-gray-400"> ({{ __('Optional') }})</span>
-                        </x-label>
-
-                        <x-input id="image"
-                                 class="block mt-2 w-full"
-                                 type="file"
-                                 name="image"/>
-
-                        <x-input-error for="image" class="mt-2"/>
-
-                        @if (!is_null($contrato->document))
-                            <a href="{{ $contrato->document->getUrl() }}" target="_blank">
-                                <img class="w-80 h-80 mx-auto object-cover mt-4"
-                                     src="{{ $contrato->document->getUrl() }}"
-                                     >
-                            </a>
-                        @endif
-                    </div> --}}
+                    
                     
                     <!--Actions-->
                     <div class="col-span-6 flex justify-end">
