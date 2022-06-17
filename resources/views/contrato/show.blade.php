@@ -226,13 +226,6 @@
                                 </x-link>
                             </div>
 
-                        {{-- <link rel="icon" href="C:\Users\EPN TECH PST\Downloads\icon-pdf.png">                  --}}
-                        {{-- <div class="col-span-6">
-                            <a href="{{ $contrato->document->getUrl() }}" target="_blank">
-                                <embed class="w-80 h-80 mx-auto object-cover"
-                                     src="{{ $contrato->document->getUrl() }}">
-                            </a>
-                        </div> --}}
                     @endif
 
                     <!--Actions-->
