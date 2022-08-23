@@ -47,7 +47,7 @@
     <div>
       <img  class="img1 " src="http://epntech.com/wp-content/uploads/2019/11/logo-700x226-200x65.png"  alt="" >
     </div>
-    <div class="container text-left">
+    <div class="container">
     
       <div class="col-md-12" >
         
@@ -57,7 +57,7 @@
         <p class="tagline"  >
           Únicamente tendrán acceso al sistema si poseen una cuenta autenticada.
         </p>
-        <a class="btn btn-full scrollto" href="{{route('login')}}">Iniciar Sesión/Registrarse</a>
+        <a class="btn " href="{{route('login')}}">Iniciar Sesión/Registrarse</a>
       </div>
     </div>
 </section><!-- End Hero -->
@@ -70,19 +70,19 @@
 
           <div class="col-lg-5 col-xs-12 text-lg-start text-center">
             <p class="copyright-text">
-              &copy; Copyright <strong>2022 </strong>All Rights Reserved
+              &copy; EPNTECH <strong>2022 </strong>All Rights Reserved
             </p>
             <div class="credits"></a>
             </div>
           </div>
 
-          {{--  <div class="col-lg-6 col-xs-12 text-lg-right text-right">
+          <div class="col-lg-6 col-xs-12 text-lg-right text-right">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="">Contact to me</a>
+                <a href="https://github.com/MarlonAdrian/Control-and-Documentation-System.git">App Github Repository</a>
               </li>
             </ul>
-          </div>  --}}
+          </div>
         </div>
       </div>
     </div>
