@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Traits\HasImage;
 use Carbon\Carbon;
+use App\Models\Contrato;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -38,7 +39,7 @@ class User extends Authenticatable implements MustVerifyEmail
     // Un usuario puede realizar muchos registros de contratos.
     public function contratos()
     {
-        return $this->hasMany(contrato::class);
+        return $this->hasMany(Contrato::class);
     }
 
     // Relación polimórfica uno a uno
